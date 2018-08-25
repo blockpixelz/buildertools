@@ -9,7 +9,7 @@ main: buildertools\BuilderTools
 permissions:
   bt.cmd:
     default: op
-    description: Permissions for all BuilderTools commands
+    description: The permissions for all BuilderTools commands
     childern:
       bt.cmd.pos1:
         description: Permissions for //pos1
